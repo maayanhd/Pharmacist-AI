@@ -1,0 +1,22 @@
+{
+  "name": "pharmacist-ai",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Rolling Node.js/TypeScript exercise driven by Claude Code agent teams",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  }
+}
